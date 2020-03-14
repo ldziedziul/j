@@ -14,7 +14,7 @@ Checked on macOS 10.15 against SDKMAN 5.7.4 with bash and zsh
 ```bash
 alias j=". ~/projects/j/j.sh"
 ``` 
-- Remember to restart the shell or reload the config file with `source ~/.bashrc` or `source ~/.zshrc`
+- Remember to restart the shell or reload the config with `source ~/.bashrc` or `source ~/.zshrc`
 
 ## FAQ
 
