@@ -30,7 +30,9 @@ alias j=". ~/projects/j/j.sh"
 - Remember to restart the shell or reload the config with `source ~/.bashrc` or `source ~/.zshrc`
 
 ## Usage
-Run `j` without arguments to see all local Java versions installed by SDKMAN. Run `j <version>` to switch the current shell to the latest local Java version of your choice.
+Run `j` without arguments to see all local Java versions installed by SDKMAN. 
+
+Run `j <version>` to switch the current shell to the latest local Java version of your choice.
 
 ## FAQ
 
