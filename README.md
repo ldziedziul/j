@@ -21,6 +21,6 @@ Run `j` without arguments to see all local Java versions installed by SDKMAN. Ru
 
 ## FAQ
 
-- **Why do I need to set up alias and not simply use the script directly?**
-An alias is needed because normally the script is invoked within the new subshell which makes the change of Java version
- invisible to the parent shell (i.e. the shell you use). The dot in the alias means the script should be run within the current shell.
+- **Why do I need to set up the alias and not simply use the script directly?**
+The alias is required because normally the script is invoked within the new subshell which makes the change of Java version
+ invisible to the parent shell (i.e. the shell you use). The dot in the alias means the script will be run within the current shell.
