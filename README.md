@@ -2,7 +2,7 @@
 
 A simple script switching the current Java between installations managed by [SDKMAN](https://sdkman.io/). 
 
-No need to remember the exact identifier nor search the history. Just type `j 13` and use your latest local Java 13.
+No need to remember the exact identifier nor search the history. Just type `j 13` and use your latest local Java 13. 
 The script checks for local installations and picks up the latest version of the chosen major Java version.
 
 Checked on macOS 10.15 against SDKMAN 5.7.4 with bash and zsh
@@ -15,6 +15,9 @@ Checked on macOS 10.15 against SDKMAN 5.7.4 with bash and zsh
 alias j=". ~/projects/j/j.sh"
 ``` 
 - Remember to restart the shell or reload the config with `source ~/.bashrc` or `source ~/.zshrc`
+
+## Usage
+Run `j` without arguments to see all local Java versions installed by SDKMAN. Run `j <version>` to switch the current shell to the latest local Java version of your choice.
 
 ## FAQ
 
