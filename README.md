@@ -20,4 +20,4 @@ alias j=". ~/projects/j/j.sh"
 
 - **Why do I need to set up alias and not simply use the script directly?**
 An alias is needed because normally the script is invoked within the new subshell which makes the change of Java version
- invisible to the parent shell (i.e. the shell you use)
+ invisible to the parent shell (i.e. the shell you use). The dot in the alias means the script should be run within the current shell.
