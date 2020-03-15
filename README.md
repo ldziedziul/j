@@ -7,6 +7,19 @@ The script checks for local installations and picks up the latest version of the
 
 Checked on macOS 10.15 against SDKMAN 5.7.4 with bash and zsh
 
+```bash
+$ j
+Available versions:
+13
+11
+8
+Current: 11
+Usage: j <java_version>
+
+$ j 8
+Using java version 8.0.242.hs-adpt in this shell.
+```
+
 ## Installation
 
 - Clone the repository (`git clone git@github.com:ldziedziul/j.git`) or download the script (https://raw.githubusercontent.com/ldziedziul/j/master/j.sh)
