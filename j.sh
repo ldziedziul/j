@@ -11,7 +11,7 @@ function print_usage() {
 
 if [[ $# -eq 1 ]]; then
   VERSION_NUMBER=$1
-  IDENTIFIER=$(ls $SDKMAN_DIR/candidates/java | grep -v current | grep "$VERSION_NUMBER.0." | sort -r | head -n 1)
+  IDENTIFIER=$(ls $SDKMAN_DIR/candidates/java | grep -v current | grep "^$VERSION_NUMBER." | sort -r | head -n 1)
   sdk use java $IDENTIFIER
 else
   print_usage
