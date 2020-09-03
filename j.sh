@@ -2,7 +2,7 @@
 
 function print_usage() {
     VERSIONS=$(ls $SDKMAN_DIR/candidates/java | grep -v current | awk -F'.' '{print $1}' | sort -nr | uniq)
-    CURRENT=$(basename $(readlink $SDKMAN_DIR/candidates/java/current) | awk -F'.' '{print $1}')
+    CURRENT=$(basename $(readlink $JAVA_HOME || echo $JAVA_HOME) | awk -F'.' '{print $1}')
     echo "Available versions: "
     echo "$VERSIONS"
     echo "Current: $CURRENT"
